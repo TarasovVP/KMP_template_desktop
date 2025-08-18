@@ -13,9 +13,16 @@
         <maven.compiler.release>17</maven.compiler.release>
         <javafx.version>21.0.2</javafx.version>
         <javafx.platform>mac-aarch64</javafx.platform>
-        <kotlin.version>2.1.21</kotlin.version>
+        <kotlin.version>1.9.21</kotlin.version>
         <datetime.version>0.7.1-0.6.x-compat</datetime.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>local-maven</id>
+            <url>file://${user.home}/.m2/repository</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -30,16 +37,9 @@
             <version>${kotlin.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jetbrains.kotlinx</groupId>
-            <artifactId>kotlinx-datetime-jvm</artifactId>
-            <version>${datetime.version}</version>
-        </dependency>
-        <dependency>
             <groupId>com.tarasovvp.kmptemplate</groupId>
-            <artifactId>shared</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/shared-jvm.jar</systemPath>
+            <artifactId>shared-jvm</artifactId>
+            <version>1.10</version>
         </dependency>
     </dependencies>
 
