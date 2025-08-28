@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.tarasovvp.kmptemplate</groupId>
             <artifactId>shared-jvm</artifactId>
-            <version>1.10</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 

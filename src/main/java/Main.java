@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) {
         Label label = new Label(new SystemInfo().getInfo());
-        label.setStyle("-fx-font-size: 18px; -fx-font-weight: bold;");
+        label.setStyle("-fx-font-size: 18px;");
         StackPane root = new StackPane(label);
         root.setAlignment(Pos.CENTER);
         stage.setTitle("KMP Desktop App");
