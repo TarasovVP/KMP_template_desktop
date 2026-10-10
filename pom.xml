@@ -14,7 +14,6 @@
         <javafx.version>21.0.2</javafx.version>
         <javafx.platform>mac-aarch64</javafx.platform>
         <kotlin.version>1.9.21</kotlin.version>
-        <datetime.version>0.7.1-0.6.x-compat</datetime.version>
     </properties>
 
     <repositories>
@@ -30,11 +29,6 @@
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
             <classifier>${javafx.platform}</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-stdlib-jdk8</artifactId>
-            <version>${kotlin.version}</version>
         </dependency>
         <dependency>
             <groupId>com.tarasovvp.kmptemplate</groupId>
