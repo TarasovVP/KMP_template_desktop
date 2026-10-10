@@ -13,7 +13,6 @@
         <maven.compiler.release>17</maven.compiler.release>
         <javafx.version>21.0.2</javafx.version>
         <javafx.platform>mac-aarch64</javafx.platform>
-        <kotlin.version>1.9.21</kotlin.version>
     </properties>
 
     <repositories>
