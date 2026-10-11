@@ -15,7 +15,8 @@ public class Main extends Application {
         Label infoLabel = new Label(systemInfo.getInfo());
         infoLabel.setStyle("-fx-font-size: 18px;");
         Label deviceLabel = new Label("Device: " + systemInfo.getDeviceModel());
-        VBox content = new VBox(infoLabel, deviceLabel);
+        Label osLabel = new Label("OS: " + systemInfo.getOsVersion());
+        VBox content = new VBox(infoLabel, deviceLabel, osLabel);
         content.setAlignment(Pos.CENTER);
         StackPane root = new StackPane(content);
         root.setAlignment(Pos.CENTER);
